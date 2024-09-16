@@ -1,0 +1,11 @@
+Panouri sub geam realizat cu $materialul folosit (ex. Piele, linoleum)$2 cu o $tipul cusăturii (ex. cusătură în formă de romb)$
+Tavan realizat din $materialul folosit (ex. material matlasat)$ cu o $tipul cusăturii (ex. cusătură în formă de romb)$
+Pod amfiteatru $scurt sau lung$ $dotare (ex. dotat cu LED perimetral alb)$
+AC WEBASTO $câți KW (ex. 14 KW)$
+Încălzitor WEBASTO $câți KW (ex. 2 KW)$
+Geamuri $firma (ex. NIRA)$ $Introduceți lungimea (ex. 118 cm)$ $culoarea (ex.negre Galaxy)$
+Scaune $modelul (ex. SEGE SEMI-VIP)$ din $materialul (ex. piele)$ $specificații extra (ex. cu logo-ul firmei)$
+MBUX $cati INCH (ex. 7 INCH)$
+Tapițerie $culoarea (ex. crem)$
+Podea din $material (ex. linoleum)$ pentru trafic intens
+Cupolă tapițată $culori (ex. în două culori... )$
