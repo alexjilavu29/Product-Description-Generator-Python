@@ -76,6 +76,7 @@ def optionParser(line):
 
     # If the product has a similar option than the one displayed, type M to modify the option
     response = input("Are produsul această opțiune? Apăsați 'D' dacă DA, 'N' dacă NU, sau 'M' dacă doriți să modificați opțiunea (D/N/M): ")
+
     # If the response is Y, add "✅ " plus the option to result.txt
     # If the response is N, skip to the next line
     if response == "D" or response == "d":
@@ -89,6 +90,7 @@ def optionParser(line):
         return("modifica")
     else:
         print("Răspuns invalid. Vă rugăm să răspundeți cu D, N sau M.")
+
         # If the response is not Y, N or M, ask for that line again continuously until a valid response is given
         while response != "D" or response != "N" or response != "M":
             response = input("Are produsul această opțiune? (D/N/M): ")
@@ -107,7 +109,8 @@ def optionParser(line):
 
 
 def optionsParser(ml):
-    # Read line by line from options.txt
+
+   # Read line by line from options.txt
     with open('options.txt', 'r') as file:
         lines = file.readlines()
         for line in lines:
@@ -120,6 +123,7 @@ def optionsParser(ml):
 
 
 def customisableOptionsParser(ml):
+
     # Parse until the first $ is found
     # Prompt the user with the section found after the first $ and before the second $
     # Than continue with the next part of the line
@@ -144,9 +148,13 @@ def customisableOptionsParser(ml):
                 with open(ml, 'a') as file:
                     file.write("✅ " + result + "\n")
 
-
+# Ask for the car code
 ml = input("Introduceți codul de identficare al masinii (ex. 01 pentru ML-01): ")
+
+# Create the file name
 ml="ML-"+ml+".txt"
+
+# Call the functions
 specificationsParser(ml)
 optionsParser(ml)
 customisableOptionsParser(ml)
