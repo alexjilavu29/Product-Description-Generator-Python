@@ -25,13 +25,13 @@ The Product Description Generator is designed for businesses needing to quickly 
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/username/repo-name.git
-```   
+   git clone https://github.com/username/repo-name.git 
+   ```
 
 2. **Navigate into the directory:**
    ```
    cd repo-name
-```
+   ```
 
 3. **Ensure Python 3 is installed on your system.**
 
@@ -44,7 +44,8 @@ The Product Description Generator is designed for businesses needing to quickly 
 2. **Run the Script:**
    Execute the following command:
    ```
-   python description_generator.py```
+   python description_generator.py
+   ```
 
 3. **Follow the Prompts:**
    Enter vehicle specifications and select options as prompted.
