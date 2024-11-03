@@ -75,3 +75,86 @@ Contributions are welcome! Please submit a pull request if you’d like to add f
 ## License
 
 This project is licensed under the MIT License.
+
+
+# 
+
+### Roumanian Translation Below
+
+# Generator Descriere Produs
+
+Acest proiect oferă o soluție personalizată în Python pentru generarea de descrieri detaliate ale produselor pentru site-ul unei companii de conversii de vehicule. Scriptul automatizează colectarea specificațiilor tehnice, opțiunilor și alegerilor personalizabile pentru fiecare vehicul, și salvează descrierile generate într-un fișier text.
+
+## Cuprins
+- [Prezentare Generală](#prezentare-generală)
+- [Funcționalități](#funcționalități)
+- [Instalare](#instalare)
+- [Utilizare](#utilizare)
+- [Structura Fișierelor](#structura-fișierelor)
+- [Exemplu de Output](#exemplu-de-output)
+
+## Prezentare Generală
+
+Generatorul de Descrieri Produs este conceput pentru afacerile care au nevoie să creeze rapid descrieri precise și cuprinzătoare ale diferitelor produse. Scriptul colectează informațiile direct de la utilizator și produce un fișier de descriere formatat, cu opțiuni de personalizare.
+
+## Funcționalități
+
+- **Introducere de Date pentru Specificații:** Permite introducerea atributelor vehiculului, precum greutate, putere și dimensiune.
+- **Parcurgerea Opțiunilor Personalizabile:** Citește opțiunile dintr-un fișier `options.txt`, cu opțiuni de adăugare, modificare sau omiterea fiecărei opțiuni.
+- **Generarea Fișierului Configurabil:** Generează automat un fișier de descriere unic pentru fiecare vehicul.
+- **Parcurgerea Șablonului Personalizabil:** Utilizează `custom_options.txt` pentru a crea secțiuni în care pot fi introduse detalii specifice pentru o personalizare suplimentară.
+
+## Instalare
+
+1. **Clonați acest repository:**
+   ```
+   git clone https://github.com/username/repo-name.git 
+   ```
+
+2. **Navigați în directorul proiectului:**
+   ```
+   cd repo-name
+   ```
+
+3. **Asigurați-vă că Python 3 este instalat pe sistemul dumneavoastră.**
+
+## Utilizare
+
+1. **Pregătiți Fișierele de Intrare:**
+   - Creați un fișier `options.txt` cu fiecare linie reprezentând o opțiune (de ex., "Trapa").
+   - Creați un fișier `custom_options.txt` cu secțiuni separate prin `$` pentru intrări personalizate.
+
+2. **Rulați Scriptul:**
+   Executați următoarea comandă:
+   ```
+   python description_generator.py
+   ```
+
+3. **Urmăriți Instrucțiunile:**
+   Introduceți specificațiile vehiculului și selectați opțiunile conform solicitărilor.
+
+## Structura Fișierelor
+
+Principalele fișiere din acest proiect sunt:
+- `description_generator.py`: Fișierul script principal pentru generarea descrierilor produselor.
+- `options.txt`: Conține opțiunile de bază ale vehiculului, câte una pe linie.
+- `custom_options.txt`: Specifică secțiuni personalizabile pentru descrierile produselor.
+
+## Exemplu de Output
+
+După rularea scriptului și introducerea datelor necesare, un fișier de ieșire exemplu poate arăta astfel:
+
+```
+✅ Mercedes Sprinter 517 CDI, 5500 KG, 140 KW, 7367 mm
+✅ Anvelope 205/75/R16 C
+✅ Rezervor principal 93 litri
+✅ Cutie de viteze manuală ECO Gear pe 6 trepte
+```
+
+## Contribuții
+
+Contribuțiile sunt binevenite! Vă rugăm să trimiteți un pull request dacă doriți să adăugați funcționalități sau îmbunătățiri.
+
+## Licență
+
+Acest proiect este licențiat sub Licența MIT.
